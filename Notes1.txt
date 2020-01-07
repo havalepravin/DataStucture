@@ -1,0 +1,46 @@
+Why Design pattern ?
+
+-To learn FW
+-To solve particular problem
+-There are total 23 patterns
+
+Categorization 
+-Creational - They deal with creation of objects 
+	1. Factory function- Purpose is to create an object.
+	
+	RealAdder.h - class declartion
+	RealAdder.cpp - method implementation
+	RealAdder.h , RealAdder.dll, RealAdder.lib
+	
+	2. Adapter - can be written in two ways - by using composition or Inheritance 
+	
+	class stack{
+		void push(n)
+		{m.pushBack(n)}
+		void pop()
+		{m.popBack()}
+		
+		list m;
+	}
+	
+	class stack{
+	
+	private: list{
+		void push (n)
+		{
+			pushback(n)
+		}
+		void pop{
+			popback()
+		}
+	}
+	}
+	
+	3. Proxy Method - e.g. Rectangle moment . It mimcs to real object without details
+	
+	4. Composite Method - Resister example
+	
+	5. Visitor Mathod - 
+	
+-Structural - They deals with relationship between 2 objects.
+-Behavioral - How work is distributed among objects.
