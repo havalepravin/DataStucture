@@ -1,4 +1,4 @@
-Why Design pattern ?
+Why Design pattern ? https://www.dofactory.com/net/chain-of-responsibility-design-pattern
 
 -To learn FW
 -To solve particular problem
@@ -41,6 +41,18 @@ Categorization
 	4. Composite Method - Resister example
 	
 	5. Visitor Mathod - 
-	
+	6. Chain of responsiblity - Use whenever we come across switch case or is else replace it by this mehtod - Example calculator
+	7. Template method - Difference between class library and FW - SO here already operations are defined we need to adopt those- Flexibility 
+	class library (dll)
+	FW
+		eg. We provide some set of instruction to robot. Later we can rearrange them too. Define workflows.
+		
+		In Exchange Engine we have used Template method.
+	8. Singleton - Restrict the instance of class. Where we require global variable 
+	9. Command - Complete action take place in one one command/function with multiple invoker.
+	10 Strategy - One method can fill with different strategical values. One button is working in different way 
+	11.Iterator - Thread safe. To have communication with different algo they will get the iterator of corresponding conatiner.
+	12. Observer - There are 4 views for a particular product. If one part is changed it should reflect on other3. Pull push 
+		
 -Structural - They deals with relationship between 2 objects.
 -Behavioral - How work is distributed among objects.
